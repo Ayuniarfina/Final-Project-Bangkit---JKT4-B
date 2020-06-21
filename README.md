@@ -8,9 +8,9 @@ This app demosntrate how to build
 ## Model ML
 ### Dataset Source
 
-Original FER dataset: https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
-Cleaned FER dataset: https://www.kaggle.com/gauravsharma99/fer13-cleaned-dataset
-Original FER dataset w/ 3 expression: only keep happy, angry, and sad data from the orginal dataset.
+* Original FER dataset: https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
+* Cleaned FER dataset: https://www.kaggle.com/gauravsharma99/fer13-cleaned-dataset
+* Original FER dataset w/ 3 expression: only keep happy, angry, and sad data from the orginal dataset.
 
 ## How To Use The App
 
