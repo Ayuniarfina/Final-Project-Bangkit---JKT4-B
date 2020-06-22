@@ -1,9 +1,17 @@
 # ML Face Expressions Recognitions App
 
-This app demosntrate how to build 
+This app is builded using an end-to-end user experience with Google ML Kit APIs and following the new Material for ML design guidelines. We add our model to this apps to recognize facial expressions which are Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise.
 
 ## Steps to run the App
-
+* Clone this repo
+```shell
+git clone https://github.com/Ayuniarfina/Final-Project-Bangkit---JKT4-B.git
+```
+* Create a Firebase project in the Firebase console, if you don't already have one
+Add a new Android app into your Firebase project with package name com.google.firebase.ml.md
+Download the config file (google-services.json) from the new added app and move it into the module folder (i.e. app/)
+* Build and run it on an Android device
+* To improve or change the apps with your model, you can put it to /app/arc/main/asset
 
 ## Model ML
 ### Dataset Source
