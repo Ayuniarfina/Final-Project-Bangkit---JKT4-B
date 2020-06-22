@@ -41,7 +41,7 @@ class ClassifierHelper(
         val (model, device, numThreads) = spec
 
         if (device === Classifier.Device.GPU
-                && (model === Classifier.Model.QUANTIZED_MOBILENET || model === Classifier.Model.QUANTIZED_EFFICIENTNET)) {
+                && (model === Classifier.Model.QUANTIZED_MOBILENET || model === Classifier.Model.QUANTIZED_EFFICIENTNET || model === Classifier.Model.FACE_EXPRESSIONS)) {
             Logger.d("Not creating classifier: GPU doesn't support quantized models.")
             onError(IllegalStateException("Error regarding GPU support for Quant models[CHAR_LIMIT=60]"))
             return

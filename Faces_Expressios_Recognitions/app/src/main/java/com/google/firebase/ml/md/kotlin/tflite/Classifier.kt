@@ -47,8 +47,8 @@ abstract class Classifier protected constructor(activity: Activity?, device: Dev
      * The model type used for classification.
      */
     enum class Model {
-        QUANTIZED_MOBILENET,
         QUANTIZED_EFFICIENTNET,
+        QUANTIZED_MOBILENET,
         FACE_EXPRESSIONS
     }
 
@@ -284,6 +284,7 @@ abstract class Classifier protected constructor(activity: Activity?, device: Dev
         fun create(activity: Activity?, model: Model, device: Device?, numThreads: Int): Classifier {
             return when (model) {
                 Model.QUANTIZED_EFFICIENTNET -> ClassifierQuantizedMobileNet(activity, device, numThreads)
+                Model.QUANTIZED_MOBILENET -> ClassifierQuantizedMobileNet(activity, device, numThreads)
                 Model.FACE_EXPRESSIONS -> ClassifierFaceExpressions(activity, device, numThreads)
                 else -> {
                     throw UnsupportedOperationException()
