@@ -46,7 +46,7 @@ Download the config file (google-services.json) from the new added app and move 
 This app supports two usage scenarios: Live Camera and Static Image.
 
 ### Live Camera scenario
-It uses the camera preview as input and contains two workflow: object detection & visual search, and barcode detection. There's also a Settings page to allow you to configure several options:
+It uses the camera preview as input and contains object detection. There's also a Settings page to allow you to configure several options:
 
 * Camera
 Specify the preview size of rear camera manually (Default size is chose appropriately based on screen size)
@@ -59,4 +59,4 @@ Required time that the auto-detected object needs to be focused for being regard
 ### Static Image scenario
 It'll prompt to select an image from the Image Picker, detect objects in the picked image, and then perform visual search on them. There're well designed UI components (overlay dots, card carousel etc.) to indicate the detected objects and search results.
 
-Note that the visual search functionality here is mock since no real search backend has set up for this repository, but it should be easy to hook up with your own search service (e.g. Product Search) by only replacing the SearchEngine class implementation.
+Source template : https://github.com/esafirm/bangkit-image-classifier-example
