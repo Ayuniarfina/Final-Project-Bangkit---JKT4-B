@@ -30,11 +30,11 @@ Download the config file (google-services.json) from the new added app and move 
 
 ### Scenarios Done
 1. Using cleaned dataset. FER13 cleaned:https://www.kaggle.com/gauravsharma99/fer13-cleaned-dataset
-*Result: higher acc but not enough classes (5 classes only)
+* Result: higher acc but not enough classes (5 classes only)
 2. Using combined dataset between cleaned FER13 and original FER13 dataset
-*Result: lower acc than original FER13 dataset caused by smaller dataset
+* Result: lower acc than original FER13 dataset caused by smaller dataset
 3. Reduced FER13 dataset
-*Best result at 3 classes: Happy, Sad, Angry. However, this is not a valid amount of classes
+* Best result at 3 classes: Happy, Sad, Angry. However, this is not a valid amount of classes
 
 ## How To Use The App
 This app supports two usage scenarios: Live Camera and Static Image.
