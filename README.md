@@ -43,7 +43,7 @@ Download the config file (google-services.json) from the new added app and move 
 2. Create balanced dataset
 
 ## How To Use The App
-
+This app supports two usage scenarios: Live Camera and Static Image.
 
 ### Live Camera scenario
 It uses the camera preview as input and contains two workflow: object detection & visual search, and barcode detection. There's also a Settings page to allow you to configure several options:
