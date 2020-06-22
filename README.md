@@ -8,9 +8,31 @@ This app demosntrate how to build
 ## Model ML
 ### Dataset Source
 
-* Original FER dataset: https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
-* Cleaned FER dataset: https://www.kaggle.com/gauravsharma99/fer13-cleaned-dataset
-* Original FER dataset w/ 3 expression: only keep happy, angry, and sad data from the orginal dataset.
+* FER13 dataset: https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
+
+### Baseline Model
+* File: baselinemodel.ipynb
+* Model used whole data from FER13 dataset, which consists of 7 facial expression: Angry, Disgust, Fear, Happy, Neutral, Sad, Surprise
+* Architecture used is simple 3 pairs layer of Conv2D(3,3) and MaxPooling2D(2,2)
+
+### Improved Model
+* File: improvedmodel.ipynb
+* Neutral expression dropped to reduce ambiguitiy. There're 6 facial expressions (Ekman, 1977)
+* Transfer learning used InceptionV3 model, trained on imagenet. Fine tuning at 200 last layers.
+
+### Scenarios Done
+1. Using cleaned dataset. FER13 cleaned:https://www.kaggle.com/gauravsharma99/fer13-cleaned-dataset
+  - Result: higher acc but not enough classes (5 classes only)
+2. Using combined dataset between cleaned FER13 and original FER13 dataset
+  - Result: lower acc than original FER13 dataset caused by smaller dataset
+3. Reduced FER13 dataset
+  - Best result at 3 classes: Happy, Sad, Angry. However, this is not a valid amount of classes
+
+### Improvement Possibilities
+1. Cleaning dataset 
+  - Remove ambiguity
+  - Remove mislabeled
+2. Create balanced dataset
 
 ## How To Use The App
 
