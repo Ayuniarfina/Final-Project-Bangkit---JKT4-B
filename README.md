@@ -36,12 +36,6 @@ Download the config file (google-services.json) from the new added app and move 
 3. Reduced FER13 dataset
   - Best result at 3 classes: Happy, Sad, Angry. However, this is not a valid amount of classes
 
-### Improvement Possibilities
-1. Cleaning dataset 
-  - Remove ambiguity
-  - Remove mislabeled
-2. Create balanced dataset
-
 ## How To Use The App
 This app supports two usage scenarios: Live Camera and Static Image.
 
