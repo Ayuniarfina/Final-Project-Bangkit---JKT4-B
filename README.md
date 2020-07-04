@@ -1,6 +1,6 @@
 # ML Face Expressions Recognitions App
 
-This app is builded using an end-to-end user experience with  <a href="https://developers.google.com/ml-kit" target="_blank">**Google ML Kit APIs**</a> and follwing <a href="https://material.io/collections/machine-learning/" target="_blank">**the new Material for ML design guidelines**</a>. We add our model to this apps to recognize facial expressions which are Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise.
+This app is builded using an end-to-end user experience with  <a href="https://developers.google.com/ml-kit" target="_blank">**Google ML Kit APIs**</a> and follwing <a href="https://material.io/collections/machine-learning/" target="_blank">**the new Material for ML design guidelines**</a>. We add our model to this apps to recognize facial expressions which are Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise. You can install this application in this link bit.ly/ML-FaceRecognitions
 
 ## Steps to run the App
 * Clone this repo
